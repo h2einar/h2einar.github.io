@@ -1,0 +1,185 @@
+*{
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 90;
+}
+.navbar{
+    display: flex;
+    margin-right:0 10px;
+
+}
+.logo{
+    margin: left 30px; ;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background: #3f3f3f;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 60vh !important;
+    background:url(img/header.jpg)no-repeat center;
+    background-size: cover;
+
+}
+.title{
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+
+}
+.subtitle{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+
+}
+p{
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 0 100px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #000000;
+    color: white;
+    text-decoration: none;
+    background: #4539eb;
+}
+.btn:hover{
+    background: none;
+}
+.btn-home{
+    display: flex;
+
+}
+.btn-home a{
+    margin: 0 10px;
+
+}
+.content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.sau{
+    padding: 30px;
+    background: #1f1d1d;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container .box{
+    height: 13rem;
+    width: 17rem;
+    background: #777777;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0,0,0,.5);
+    margin: 2rem;
+}
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 100%;
+    color: white;
+    background: #211b7a;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+} 
+.box-container .box h3{
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.box-container .box p{
+    padding: 12px 15px;
+    font-size: 15px;
+
+}
+.about{
+    background: #171717;
+}
+.price{
+    background: url(img/costos.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.contact{
+padding-top: 20px;
+background: #171717;
+padding-bottom: 0;
+}
+@media (max-width:768px){
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .sau{
+        height: 120vh;
+    }
+    .navbar{
+        display: none;
+    }
+}
+.pdfview{
+margin: auto;
+display: block;
+width: 900px;
+height: 100vh;
+border-radius: 50px;
+box-shadow: 0 4px 8px rgba(0,0,0,.2) 0 6px 20px 0 rgba(0,0,0,.19);
+
+}
